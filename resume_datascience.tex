@@ -1,0 +1,88 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Anders Joachim Poirel}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{628 Crown Road, Santa Cruz, CA 95064}
+% \moveleft.5\hoffset\centerline{}
+ \moveleft.5\hoffset\centerline{(415) 324-9472 $\mid$ andersjopo@gmail.com}
+
+
+\begin{resume}
+ 
+%\section{OBJECTIVE}  
+%	A position in the fields of programming, mathematics and/or statistics, %	with a special interest in modeling and data science. 
+ 
+\section{EDUCATION}
+	University of California, Santa Cruz \hfill {\sl Summer 2017 -  Spring 2020 (expected) } \\
+	B.S. Computer Science, B.A. Mathematics \\
+    {\sl GPA}: 3.8 \\
+    
+    \begin{ncolumn}{2}
+                {\sl Relevant coursework:    } &\\
+             
+                Algorithms and Abstact Data Types & Intermediate Bayesian Inference  (Grad.) \\
+                Classical and Bayesian Inference & Real Analysis I \\
+                Linear Algebra & Computational Futurology \\
+                Multivariable Calculus I-II & Discrete Mathematics \\
+                Abstract Algebra I & Formal Logic \\
+                Data Structures & Probability Theory \\
+                Ordinary Differential Equations & Computer Systems and Assembly Language \\
+              
+                
+    \end{ncolumn}
+
+\section{SKILLS} 
+    {\sl Programming}: C (good), R (good), Java (intermediate), Python (intermediate), \\
+    \hspace*{2ex}SQL (beginner) \\
+    {\sl Software}: Tableau, Excel\\
+    {\sl Other}: Statistical inference \& Data analysis (good), Machine Learning (beginner)\\
+    {\sl Languages}: English (native), French (native), Mandarin Chinese (basic) \\
+ 
+\section{EXPERIENCE} 
+	{\sl Small Group Tutor} $\mid$ Learning Support Services, UCSC \hfill {\sl Fall 2018 - present}\\
+	Tutor in Formal logic for groups of 3 to 6 students. Topics included propositional and predicate systems, and methods of proof
+   
+    % {\sl Research Programmer} \hfill            Summer 1990 \\
+    % Psychology Department, Rensselaer Polytechnic Institute 
+    % \begin{itemize}  \itemsep -2pt %reduce space between items
+    % \item Performed computer aided statistical analysis of data. 
+    % \end{itemize} 
+
+\section{HONORS}   
+    Dean's List (every quarter)\\
+    Dean's Award scholarship \\ 
+    College Scholars Program
+
+\section{EXTRA-CURRICULARS}             
+    {\sl Assistant Instructor} $\mid$ Aikido Club \hfill {\sl Fall 2017 - Spring 2018} \\
+    {\sl Attending:} $\mid$ Data Science Slugs, Philosophical Society
+
+\section{PROJECTS}
+	\textit{Access to Birth Control in the US:} \\
+	Used regression analysis in R to examine whether partisan composition of state legislatures predicts access to birth control on a state level. \\
+    \hspace*{2ex} \href{https://drive.google.com/drive/folders/1DtbDNyi160zuXgVyBocp7d1TX9Zl3crS}{https://drive.google.com/drive/folders/1DtbDNyi160zuXgVyBocp7d1TX9Zl3crS} \\
+    \newline
+    \textit{Who is Satoshi?:} \\
+    Leveraged textual analysis in R (hierarchical clustering, term frequency, tf-idf) to determine whether cryptographer Nick Szabo authored Satoshi Nakamoto's white paper on cryptocurrency. \\
+    \hspace*{2ex} \href{https://drive.google.com/drive/folders/115GJnWRoNdNfH7YVGWrgmET8HsYuJYy5}{https://drive.google.com/drive/folders/115GJnWRoNdNfH7YVGWrgmET8HsYuJYy5}
+	
+
+\end{resume}
+\end{document}
+
+
+
+
